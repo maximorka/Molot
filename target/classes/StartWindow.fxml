@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="775.0" prefWidth="1321.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.molot.ui.MainController">
+   <children>
+      <Button fx:id="button_send" layoutX="170.0" layoutY="374.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" text="Send" />
+      <TextArea fx:id="textArea_send" layoutX="15.0" layoutY="336.0" maxHeight="30.0" minHeight="30.0" prefHeight="15.0" prefWidth="231.0" />
+      <Label fx:id="lbFps" layoutX="57.0" layoutY="733.0" text="L" />
+      <Label layoutX="15.0" layoutY="733.0" text="FPS:" />
+      <Label fx:id="lbl2" layoutX="15.0" layoutY="165.0" text="IP:" />
+      <Label fx:id="lbl21" layoutX="15.0" layoutY="208.0" text="Port:" />
+      <TextField fx:id="textIp" layoutX="100.0" layoutY="160.0" prefHeight="31.0" prefWidth="142.0" text="192.168.0.1" />
+      <TextField fx:id="textPort" layoutX="100.0" layoutY="204.0" prefHeight="31.0" prefWidth="142.0" text="80" />
+      <Button fx:id="button_connectEth" layoutX="172.0" layoutY="252.0" mnemonicParsing="false" text="Connect" />
+      <Label layoutX="51.0" layoutY="307.0" text="TRANSMIT COMMAND" />
+      <Label layoutX="150.0" layoutY="733.0" text="Peak:" />
+      <Label layoutX="496.0" layoutY="733.0" text="RMS:" />
+      <Label fx:id="labelPeak" layoutX="195.0" layoutY="733.0" text="P" />
+      <Label fx:id="labelRMS" layoutX="550.0" layoutY="733.0" text="R" />
+      <Label fx:id="labelEnergy" layoutX="813.0" layoutY="733.0" text="E" />
+      <CheckBox fx:id="checkBoxServer" layoutX="15.0" layoutY="257.0" mnemonicParsing="false" text="Server" />
+      <Line endX="95.0" layoutX="158.0" layoutY="153.0" startX="-150.0" stroke="#f2e5e5" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="2.0">
+         <effect>
+            <Lighting bumpInput="$null">
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Line>
+      <Line endX="95.0" layoutX="158.0" layoutY="292.0" startX="-150.0" stroke="#f2e5e5" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="2.0">
+         <effect>
+            <Lighting bumpInput="$null">
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Line>
+      <Line endY="137.0" layoutX="6.0" layoutY="154.0" stroke="#f2e5e5" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="2.0">
+         <effect>
+            <Lighting bumpInput="$null">
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Line>
+      <Line endY="135.0" layoutX="254.0" layoutY="154.0" stroke="#f2e5e5" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="2.0">
+         <effect>
+            <Lighting bumpInput="$null">
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Line>
+   </children>
+</AnchorPane>

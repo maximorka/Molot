@@ -1,0 +1,24 @@
+{
+	"items": {
+		"modem-init": "0",
+		"modem-init-answer": "128",
+		
+		"modem-setup": "1",
+		
+		"ethernet-set-params": "4",
+		"ethernet-reset-socket": "4",
+
+		"ethernet-get-params": "5",
+		"ethernet-reset-timeout-timer": "5",
+		
+		"close-in-out": "2",
+		
+		"set-received-packet-size": "3",
+
+		"set-receive-frequency": "8",
+
+		"set-transmitter-frequency": "7",
+
+		"set-configuration-grequency": "6"
+	}
+}

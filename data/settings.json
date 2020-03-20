@@ -1,0 +1,32 @@
+{
+  "filename": "settings",
+  "items": {
+    "received-packet-size": "64",
+    "packet-divide-mask-bit-count": "12",
+    "ethernet-reset-timeout-timer": "1000",
+    "ethernet-heartbeat-timeout-in-seconds": "10",
+    "ethernet-ip-address": "192.168.0.1",
+    "ethernet-port": "80",
+    "ethernet-connect-timeout": "2000",
+    "work-mode": "5",
+    "freq-dst": "120",
+    "speed": "60",
+    "debug-com-port": "/dev/ttyUSB0",
+    "debug-com-port-speed": "38400",
+    "modem-hot-byte-count": "4",
+    "log-raw-bits": "true",
+    "init-dialog-work-mode": "1",
+    "init-dialog-first-device-settings": "{\n  \"device-name\": \"УПС\",\n  \"UPS-connection-type\": \"USB\",\n  \"UPS-ethernet-ip\": \"192.168.0.10\",\n  \"UPS-ethernet-port\": \"80\",\n  \"WINRADIO-frequency\": \"\",\n  \"UPS-serial-port\": \"/dev/ttyUSB1\"\n}",
+    "init-dialog-second-device-settings": "{\n  \"device-name\": \"ICOM\",\n  \"UPS-connection-type\": \"USB\",\n  \"UPS-ethernet-ip\": \"255.255.255.255\",\n  \"UPS-ethernet-port\": \"13\",\n  \"UPS-serial-port\": \"COM11\",\n  \"WINRADIO-sound\": \"true\",\n  \"WINRADIO-attenuator\": \"0\",\n  \"WINRADIO-spectrum\": \"true\",\n  \"ICOM-frequency\": \"07000000\",\n  \"ICOM-attenuator\": \"0\",\n  \"ICOM-sound\": \"false\",\n  \"ICOM-spectrum\": \"true\",\n  \"WINRADIO-frequency\": \"07000000\"\n}",
+    "password": "48690",
+    "files-rd-code": "1",
+    "file-chunk-size": "5",
+    "long-packet-size": "40",
+    "short-packet-size": "11",
+    "file-packet-chunk-size": "6",
+    "sound-enabled": "false",
+    "work-speed": "250",
+    "char-count-in-message": "11",
+    "frequency-config": "27"
+  }
+}
